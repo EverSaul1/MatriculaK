@@ -1,0 +1,100 @@
+/*importaciones de letras tipografia*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+/*********************Estilos propios***********************************/
+.login-page{
+    background-image: url("../../img/colegio/fondo.jpeg");
+    background-size: cover;
+    background-position: center;
+
+}
+.login-form{
+    width: 350px;
+    margin: 0 auto;
+    padding: 100px 0 30px;
+    margin-top: 55px;
+
+}
+.login-form .form-control{
+    min-height: 41px;
+    background: #fff;
+    box-shadow: none !important;
+    border-color: #e3e3e3 ;
+}
+.login-form .form-control:focus{
+    border-color: #70c5c0;
+}
+.login-form .form-control , .btn{
+    border-radius: 10px;
+}
+.login-form form{
+    color: #7a7a7a;
+    border-radius: 8px; /*borde redondo par ael form*/
+    margin-bottom: 15px;
+    font-size: 13px; /*tamaño de letra*/
+    background: #ececec; /*color del form*/
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.3); /*sombra abajo*/
+    padding: 30px; /*padding para el form*/
+    position: relative;
+}
+.login-form h2{
+    font-size: 25px;
+    margin: 35px 0 25px;
+}
+.login-form .avatar{
+    position: absolute;
+    background-image: url('../../img/plantilla/logo-blanco-bloque.png');
+    background-size: contain;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: white;
+    left: 0;
+    right: 0;
+    top: -50px;
+    width: 95px;
+    height: 95px;
+    margin: 0 auto;
+    border-radius: 50%;
+    z-index: 9;
+    padding: 15px;
+    box-shadow: 0px 2px 2px white;
+}
+.login-form .avatar img{
+    width: 100%;
+}
+.login-form input[type="checkbox"]{
+    margin-top: 2px;
+}
+.login-form .btn{
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #70c5c0;
+    border: none;
+    margin-bottom: 20px;
+}
+.login-form .btn:hover , .login-form .btn:focus{
+    background: #50b8b3;
+    outline: none !important;
+}
+.login-form a{
+    color: #fff;
+    text-decoration: underline;
+}
+.login-form a:hover{
+    text-decoration: none;
+}
+.login-form form a{
+    color: #7a7a7a;
+    text-decoration: none;
+}
+.login-form form a:hover{
+    text-decoration: underline;
+}
+
+/*inicio*/
+
+.title-page{
+    font-size: 45px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
