@@ -157,6 +157,7 @@ CUERPO DOCUMENTO
   ?>
 
 <script src="vistas/js/plantilla.js"></script>
+<script src="vistas/js/discapacidades.js"></script>
 <script src="vistas/js/curricula.js"></script>
 <script src="vistas/js/matricula.js"></script>
 <script src="vistas/js/usuarios.js"></script>
